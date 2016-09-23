@@ -1,0 +1,144 @@
+\documentclass[11pt,a4paper]{article}
+\synctex=1
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1cm, bottom=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{textcomp}
+\usepackage{courier}
+\usepackage[hangul]{kotex}
+
+
+\linespread{1.3}
+
+\begin{document}
+\begin{center}
+\vspace*{2cm}
+{\fontsize{50}{50} 자료구조와 실습
+\vspace{1cm}
+\\연습문제}
+\vspace{9cm}	
+
+\LARGE
+\begin{tabular}{rl}
+학번 : & 2016110056\\ 
+학과 : & 불교학부 \\
+이름 : & 박승원\\
+날짜 : & \today
+\end{tabular}
+\vspace{1cm}
+
+\includegraphics[width=0.5\textwidth]{logo.jpg}
+
+\end{center}
+\newpage
+
+
+\noindent
+\begin{enumerate}
+	
+
+\item {\large\ttfamily 다음 중 추상 자료형의 설명 중 틀린 것은?}
+	\begin{enumerate}
+	\item 추상자료형은 구현의 세부적인 사항을 무시한다.
+	\item 자료구조의 구현이 바뀌더라도 추상 자료형의 연산만을 사용하였다면 응용 프로그램을 바꾸지 않아도 된다.
+	\item \fbox{추상자료형을 사용하면 프로그램의 수행속도가 빨라진다.}
+	\item 자세하고 명확한 인터페이스를 사용함으로써 오류의 가능성을 줄인다.
+	\end{enumerate}
+	
+\item Set(집합) 추상 데이터 타입을 정의하라. 다음과 같은 연산자들을 포함시켜라.
+
+{\ttfamily Create, insert, remove, is\_in, union, intersection, difference}
+
+\item Boolean 추상 데이터 타입을 정의하고 다음과 같은 연산자들을 포함시켜라.
+
+And or not xor
+
+\lstset{language=C++, tabsize=4, frame=single, showstringspaces=false, breaklines=true, columns=flexible, basicstyle=\ttfamily\small}
+\lstinputlisting{set.cc}	
+\includegraphics[width=\textwidth]{1.png}
+	
+	
+\item $n^2+10n+8$의 시간 복잡도 함수를 빅오 표기법으로 나타내면 ?
+	\begin{enumerate}
+		\item O(n)	
+		\item O($log_2 n$)
+		\item \fbox{O($n^2$)}
+		\item O($n^2log_2n$)
+	\end{enumerate}
+	
+\item 시간복잡도 함수가 이라면 이것이 나타내는 거승ㄴ 무엇인가?
+	\begin{enumerate}
+		\item \fbox{연산의 회수}
+		\item 프로그램의 수행시간
+		\item 프로그램이 차지하는 메모리의 양
+		\item 입력 데이터의 총개수
+	\end{enumerate}
+\item O($n^2$)의 시간복잡도를 가지는 알고리즘에서 입력의 개수가 2배로 되었다면 실행시간은 어떻게 되는가?
+\begin{enumerate}
+	\item 변함없다.
+	\item 2배
+	\item \fbox{4배}
+	\item 8배
+\end{enumerate}
+
+\item O($n^2$)의 시간복잡도를 가지는 알고리즘이 1초에 입력 100을 처리한다. 이 알고리즘이 100초에 처리할 수 있는 입력의 개수는?\\
+10000
+
+\item 다음의 빅오 표기법들을 수행시간이 적게 걸리는 것부터 나열하라.
+
+	$O(1)\ O(logn)\ O(n)\ O(nlogn)\ O(n^2)\ O(2^n)\ O(n!)$
+	
+\item 다음의 코드에서 정확한 대입연산, 곱셈연산, 덧셈연산, 비교연산의 개수를 계산하여 정확한 시간 복잡도 함수값을 계산하다.
+\begin{enumerate}
+	\item
+	\begin{lstlisting}[frame=none] 
+	test(int n)
+	{
+		int n;
+		int total=1;//1
+		for(i=2; i<n; i++) total *=n;//2(n-2)
+		return n;//total = 2n-3
+	}
+	\end{lstlisting}
+	
+	\item
+	\begin{lstlisting}[frame=none]
+		float sum(float llist[], int n)
+		{
+			float tempsum;
+			int i;
+			tempsum = 0;//1
+			for(i=0;i<n; i++) {//2n
+				tempsum += list[i];//n
+			}
+			tempsum += 100;//1
+			tempsum += 200;//1
+			return tempsum;//total = 3n+3
+		}
+	\end{lstlisting}
+	
+	\item
+	\begin{lstlisting}[frame=none]
+		void sum(int n)
+		{
+			int i,b;
+			b=2;//1
+			i=1;//1
+			while(i<=n) {//logn
+				i = i*b;//logn
+			}
+		}//total = 2logn+2
+	\end{lstlisting}
+	$i = 2^n$\\
+	\therefore $i = log_2n$ 
+\end{enumerate}
+\item 두 개의 알고리즘 A와 B가 있다. A의 시간 복잡도 함수는 $1000n^2+1000$이고 B의 시간 복잡도 함수는 $2^n$이라고 하자. n의 값이 어느 정도 이상이어야 A가 유리한가? 19
+\lstinputlisting{n1000.cc}
+\item 두함수 $30n+4$와 $n^2$를 여러가지 n값으로 비료하라. 언제 30n+4가 $n^2$보다 작은 값을 갖는지를 구하라. 그래프를 그려보라.
+
+\includegraphics[width=0.5\textwidth]{22.png}
+
+$n^2-30n+4=0\\n=15\pm\sqrt{229}$
+\end{enumerate}
+\end{document}
