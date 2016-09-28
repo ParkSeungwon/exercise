@@ -49,6 +49,15 @@ int Pali_dic::search(const char* s)
 	}
 }
 
+bool Pali_dic::duplicate(const char *s)
+{
+	if(dictionary.find(s) == dictionary.end()) return false;
+	else {
+		cout << s << " : " << dictionary[s] << endl;
+		return true;
+	}
+}
+
 int main(int c, char** v)
 { 
 	string file = getenv("HOME");
@@ -61,6 +70,13 @@ int main(int c, char** v)
 		Pali_dic pd(file);
 		pd.search(v[1]);
 	} else if(c == 3) {
+		Pali_dic pd(file);
+		if(pd.duplicate(v[1])) {
+			cout << "already exists. Do you want to replace it?(y/n)";
+			char c;
+			cin >> c;
+			if(c == 'n') return 0;
+		}
 		ofstream f(file, fstream::app);
 		f << v[1] << endl << v[2] << endl;
 	}
