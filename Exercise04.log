@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.8)  2 OCT 2016 08:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.8)  2 OCT 2016 08:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Exercise01.tex
-(./Exercise01.tex
+**Exercise04.tex
+(./Exercise04.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -730,8 +730,8 @@ Package: konames-utf 2015/07/06 v1.7 UTF-8 Hangul captions
 \dhucs@emph@width=\dimen128
 \useremphraisedim=\dimen129
 )))
-(./Exercise01.aux)
-\openout1 = `Exercise01.aux'.
+(./Exercise04.aux)
+\openout1 = `Exercise04.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
@@ -869,152 +869,228 @@ Package pdftex.def Info: logo.jpg used on input line 33.
 (pdftex.def)             Requested size: 270.3012pt x 84.2471pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.jpg>]
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.jpg>] [2]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 80.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 126.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
+<11.jpg, id=47, 1490.56876pt x 1180.41pt>
+File: 11.jpg Graphic file (type jpg)
+ <use 11.jpg>
+Package pdftex.def Info: 11.jpg used on input line 136.
+(pdftex.def)             Requested size: 540.60239pt x 428.0993pt.
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 136--137
+[] 
+ []
+
+[3] (./list.h
 LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <10> not available
-(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 81.
- [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 212--237
-
- []
-
-[5]
+(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 1.
+ [4 <./11.jpg>]) (./list.c
 LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <10> not available
-(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 246.
+(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 2.
+ [5]
 LaTeX Font Info:    Try loading font information for LUC+nanumgt on input line 
-246.
- (/usr/share/texlive/texmf-dist/tex/latex/nanumtype1/lucnanumgt.fd
+50.
+
+(/usr/share/texlive/texmf-dist/tex/latex/nanumtype1/lucnanumgt.fd
 File: lucnanumgt.fd 2013/02/12 v0.1 Nanum Gothic font definitions
-)
-LaTeX Font Info:    Font shape `LUC/nanumgt/m/it' in size <10> not available
-(Font)              Font shape `LUC/nanumgt/m/sl' tried instead on input line 2
-46.
+))
+<list.png, id=63, 928.46875pt x 244.915pt>
+File: list.png Graphic file (type png)
+ <use list.png>
+Package pdftex.def Info: list.png used on input line 152.
+(pdftex.def)             Requested size: 540.60239pt x 142.60387pt.
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 152--153
+[] 
+ []
+
+[6] (./18.c [7 <./list.png>]) <18.png, id=83, 928.46875pt x 178.6675pt>
+File: 18.png Graphic file (type png)
+
+<use 18.png>
+Package pdftex.def Info: 18.png used on input line 156.
+(pdftex.def)             Requested size: 540.60239pt x 104.0307pt.
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 156--157
+[] 
+ []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.257 \begin{cases}
-                   
-? giq
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-1 or ... or 9 to ignore the next 1 to 9 tokens of input,
-H for help, X to quit.
+l.158 ...Î°ú ÎÖ∏ÎìúÎ•º ÏÇ≠Ï†úÌïòÎäî Ìï®Ïàò remove_
+                                                  node2Î•º ÏûëÏÑ±ÌïòÍ≥† Íµ¨Ì...
+
 ? q
 OK, entering \batchmode...
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.258 $ _
-         {n-1}C_{k-1}+_{n-1}C_k $ & if\ 0<k<n\\
+l.159 ...putlisting[language=C,frame=single]{21.c}
+                                                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-! Missing $ inserted.
+! Missing } inserted.
 <inserted text> 
-                $
-l.258 $ _{n-1}C_{k-1}+_{n-1}C_k $ &
-                                    if\ 0<k<n\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.260 \end{cases}
-                 
+                }
+l.159 ...putlisting[language=C,frame=single]{21.c}
+                                                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
- [6] [7] [8] (./Exercise01.aux) ) 
-Here is how much of TeX's memory you used:
- 5896 strings out of 493029
- 79887 string characters out of 6136235
- 278355 words of memory out of 5000000
- 9261 multiletter control sequences out of 15000+600000
- 33166 words of font info for 119 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 38i,8n,58p,904b,1895s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips
-/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/nanumtype1/nanumgtmad.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/nanumtype1/nanumgtmb8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/nanumtype1/nanumgtmbc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/n
-anumtype1/nanumgtmc2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanu
-mtype1/nanumgtmc8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumty
-pe1/nanumgtmd5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1
-/nanummjmac.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/na
-nummjmad.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanum
-mjmae.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjm
-af.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb5.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/nanumtype1/nanummjmbd.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/nanumtype1/nanummjmbe.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/nanumtype1/nanummjmc0.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/nanumtype1/nanummjmc1.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/nanumtype1/nanummjmc2.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/nanumtype1/nanummjmc4.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/nanumtype1/nanummjmc5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-nanumtype1/nanummjmc6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nan
-umtype1/nanummjmc7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumt
-ype1/nanummjmc8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype
-1/nanummjmc9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/n
-anummjmcc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanu
-mmjmcd.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummj
-mce.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcf
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/courier/ucrro8a.pfb>
-Output written on Exercise01.pdf (8 pages, 1984106 bytes).
-PDF statistics:
- 254 PDF objects out of 1000 (max. 8388607)
- 186 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.159 ...putlisting[language=C,frame=single]{21.c}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.159 ...putlisting[language=C,frame=single]{21.c}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no ë in font cmr10!
+Missing character: There is no ‡ in font cmr10!
+Missing character: There is no Ï in font cmr10!
+Missing character: There is no § in font cmr10!
+Missing character: There is no ∏ in font cmr10!
+! Extra }, or forgotten \endgroup.
+\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.159 ...putlisting[language=C,frame=single]{21.c}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+\lst@GetLineInterval ...r \lst@GLI \lst@linerange 
+                                                  \@nil 
+l.159 ...putlisting[language=C,frame=single]{21.c}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Runaway argument?
+\@nil \lst@ifsensitive \else \let \lst@KeywordTest \lst@KEYWORDTEST \let \ETC.
+! Paragraph ended before \lst@GLI was complete.
+<to be read again> 
+                   \par 
+l.161 
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+Overfull \hbox (6.79736pt too wide) in paragraph at lines 162--163
+[]\LUC/nanumgt/m/n/10/b2 Ë\LUC/nanumgt/m/n/10/c2 ^^\ \LUC/nanumgt/m/n/10/c5 \L
+UC/nanumgt/m/n/10/ac ∞ \LUC/nanumgt/m/n/10/b9 ¨\LUC/nanumgt/m/n/10/c2 §\LUC/nan
+umgt/m/n/10/d2 ∏ \OT1/pcr/m/n/10 C\LUC/nanumgt/m/n/10/b9 | \LUC/nanumgt/m/n/10/
+b4 P\LUC/nanumgt/m/n/10/ac ^^\\LUC/nanumgt/m/n/10/c7 X \LUC/nanumgt/m/n/10/b2 Ë
+\LUC/nanumgt/m/n/10/c2 ^^\ \LUC/nanumgt/m/n/10/c5 \LUC/nanumgt/m/n/10/ac ∞ \LU
+C/nanumgt/m/n/10/b9 ¨\LUC/nanumgt/m/n/10/c2 §\LUC/nanumgt/m/n/10/d2 ∏ \OT1/pcr/
+m/n/10 A\LUC/nanumgt/m/n/10/c6 @ \OT1/pcr/m/n/10 B\LUC/nanumgt/m/n/10/b8 \ \LUC
+/nanumgt/m/n/10/bd Ñ\LUC/nanumgt/m/n/10/b9 ¨\LUC/nanumgt/m/n/10/d5 X\LUC/nanumg
+t/m/n/10/b2 î \LUC/nanumgt/m/n/10/d5 h\LUC/nanumgt/m/n/10/c2 ^^X \OT1/pcr/m/n/1
+0 split\LUC/nanumgt/m/n/10/b9 | \LUC/nanumgt/m/n/10/c7 ë\LUC/nanumgt/m/n/10/c1 
+1\LUC/nanumgt/m/n/10/d5 X\LUC/nanumgt/m/n/10/c5 Ï \LUC/nanumgt/m/n/10/bc Ù\LUC/
+nanumgt/m/n/10/c7 ê\OT1/pcr/m/n/10 . C\LUC/nanumgt/m/n/10/c7 X \LUC/nanumgt/m/n
+/10/d6 @\LUC/nanumgt/m/n/10/c2 ^^X\LUC/nanumgt/m/n/10/bc à\LUC/nanumgt/m/n/10/c
+9 ¯ \LUC/nanumgt/m/n/10/b1 x\LUC/nanumgt/m/n/10/b4 ‹‰
+ []
+
+
+Overfull \hbox (4.99734pt too wide) in paragraph at lines 162--163
+\LUC/nanumgt/m/n/10/c7 @ \LUC/nanumgt/m/n/10/ba ®\LUC/nanumgt/m/n/10/b4 P \OT1/
+pcr/m/n/10 A\LUC/nanumgt/m/n/10/b8 \ \LUC/nanumgt/m/n/10/c7 t\LUC/nanumgt/m/n/1
+0/b3 Ÿ\LUC/nanumgt/m/n/10/b4 ^^X\LUC/nanumgt/m/n/10/ac ‡ \OT1/pcr/m/n/10 C\LUC/
+nanumgt/m/n/10/c7 X \LUC/nanumgt/m/n/10/c9 ›\LUC/nanumgt/m/n/10/c2 ^^X\LUC/nanu
+mgt/m/n/10/bc à\LUC/nanumgt/m/n/10/c9 ¯ \LUC/nanumgt/m/n/10/b1 x\LUC/nanumgt/m/
+n/10/b4 ‹‰\LUC/nanumgt/m/n/10/c7 @ \LUC/nanumgt/m/n/10/ba ®\LUC/nanumgt/m/n/10/
+b4 P \OT1/pcr/m/n/10 B\LUC/nanumgt/m/n/10/b8 \ \LUC/nanumgt/m/n/10/c7 t\LUC/nan
+umgt/m/n/10/b3 Ÿ\LUC/nanumgt/m/n/10/b4 ^^\\LUC/nanumgt/m/n/10/b2 ‰\OT1/pcr/m/n/
+10 . \LUC/nanumgt/m/n/10/c7 t \LUC/nanumgt/m/n/10/d5 h\LUC/nanumgt/m/n/10/c2 ^^
+X\LUC/nanumgt/m/n/10/ac ^^@ \OT1/pcr/m/n/10 C\LUC/nanumgt/m/n/10/b9 | \LUC/nanu
+mgt/m/n/10/bc ¿\LUC/nanumgt/m/n/10/ac Ω\LUC/nanumgt/m/n/10/d5 X\LUC/nanumgt/m/n
+/10/c5 Ï\LUC/nanumgt/m/n/10/c1 ^^\\LUC/nanumgt/m/n/10/b2 î \LUC/nanumgt/m/n/10/
+c5 H\LUC/nanumgt/m/n/10/b4 ^^\\LUC/nanumgt/m/n/10/b2 ‰\OT1/pcr/m/n/10 . \LUC/na
+numgt/m/n/10/c7 ë\LUC/nanumgt/m/n/10/c1 1\LUC/nanumgt/m/n/10/b4 ^^\ \LUC/nanumg
+t/m/n/10/c5 L\LUC/nanumgt/m/n/10/ac ‡\LUC/nanumgt/m/n/10/b9 ¨
+ []
+
+ (./20.c) <20.png, id=84, 928.46875pt x 134.5025pt>
+File: 20.png Graphic file (type png)
+ <use 20.png>
+Package pdftex.def Info: 20.png used on input line 164.
+(pdftex.def)             Requested size: 540.60239pt x 78.31523pt.
+
+Overfull \hbox (5.19739pt too wide) in paragraph at lines 165--166
+[]\LUC/nanumgt/m/n/10/c7 t\LUC/nanumgt/m/n/10/d5 m\LUC/nanumgt/m/n/10/ac ƒ\LUC/
+nanumgt/m/n/10/c2 ^^X\OT1/pcr/m/n/10 (binomial coefficient)\LUC/nanumgt/m/n/10/
+b9 | \LUC/nanumgt/m/n/10/ac ƒ\LUC/nanumgt/m/n/10/c0 ∞\LUC/nanumgt/m/n/10/d5 X\L
+UC/nanumgt/m/n/10/b2 î \LUC/nanumgt/m/n/10/c2 ^^\\LUC/nanumgt/m/n/10/d6 X \LUC/
+nanumgt/m/n/10/d5 h\LUC/nanumgt/m/n/10/c2 ^^X\LUC/nanumgt/m/n/10/b9 | \LUC/nanu
+mgt/m/n/10/c7 ë\LUC/nanumgt/m/n/10/c1 1\LUC/nanumgt/m/n/10/d5 X\LUC/nanumgt/m/n
+/10/b7 |\OT1/pcr/m/n/10 . \LUC/nanumgt/m/n/10/c7 t\LUC/nanumgt/m/n/10/d5 m\LUC/
+nanumgt/m/n/10/ac ƒ\LUC/nanumgt/m/n/10/c2 ^^X\LUC/nanumgt/m/n/10/b2 î ‰\LUC/nan
+umgt/m/n/10/c7 L\LUC/nanumgt/m/n/10/ac ¸ ^^Y\LUC/nanumgt/m/n/10/c7 t \LUC/nanum
+gt/m/n/10/c2 ^^\\LUC/nanumgt/m/n/10/d6 X\LUC/nanumgt/m/n/10/c8 ^^A\LUC/nanumgt/
+m/n/10/c7 <\LUC/nanumgt/m/n/10/b8 \ \LUC/nanumgt/m/n/10/c8 ^^U\LUC/nanumgt/m/n/
+10/c7 X\LUC/nanumgt/m/n/10/b4 ^^\\LUC/nanumgt/m/n/10/b2 ‰\OT1/pcr/m/n/10 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+! TeX capacity exceeded, sorry [grouping levels=255].
+\lst@OrgOutput ->{
+                  \lst@RestoreOrigCatcodes \lst@ifec \lst@RestoreOrigExtende...
+l.170 	if(
+          r==0 || r==n) return 1;
+If you really absolutely need more capacity,
+you can ask a wizard to enlarge me.
+
+ 
+Here is how much of TeX's memory you used:
+ 5942 strings out of 493029
+ 80276 string characters out of 6136235
+ 268048 words of memory out of 5000000
+ 9278 multiletter control sequences out of 15000+600000
+ 37225 words of font info for 134 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 259i,7n,49p,692b,2196s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
