@@ -10,10 +10,11 @@ SortedList* add(SortedList* L, element n) {
 	if(L == NULL || L->data > n) {
 		SortedList* new = (SortedList*)malloc(sizeof(SortedList));
 		new->data = n;
-		new->node = L;
+		new->head = L == NULL ? NULL : L->head;
+		new->tail = L;
 		return new;
 	} else {
-		L->node = add(L->node, n);
+		L->tail = add(L->tail, n);
 		return L;
 	}
 }
@@ -21,18 +22,18 @@ SortedList* add(SortedList* L, element n) {
 void display(SortedList* L) {
 	if(L == NULL) return;
 	printf("%d ", L->data);
-	display(L->node);
+	display(L->tail);
 }
 
 int is_in(SortedList* L, element n) {
 	if(L == NULL) return 0;
 	if(L->data == n) return 1;
-	else return is_in(L->node, n);
+	else return is_in(L->tail, n);
 }
 
 SortedList* clear(SortedList* L) {
 	if(L != NULL) {
-		clear(L->node);
+		clear(L->tail);
 		free(L);
 	}
 	return NULL;
@@ -40,7 +41,7 @@ SortedList* clear(SortedList* L) {
 
 int get_length(SortedList* L) {
 	if(L == NULL) return 0;
-	return get_length(L->node) + 1;
+	return get_length(L->tail) + 1;
 }
 
 int main()
