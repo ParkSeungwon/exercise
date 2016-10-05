@@ -2,7 +2,7 @@
 #include<stdlib.h>
 typedef int element;
 typedef struct {
-	element *stack;
+element *stack;
 	int top;
 	int max_top; //현재 배열의 크기
 } RStackType;
@@ -18,7 +18,7 @@ void push(RStackType* st, element n) {
 	if(st->top == st->max_top) {
 		st->max_top = 2 * st->max_top + 1;
 		change_stack_size(st, st->max_top);
-	} 
+	}
 	st->stack[st->top++] = n;
 }
 
