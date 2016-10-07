@@ -48,29 +48,32 @@ void save(Line* l) {
 }
 
 Line* command(Line* l) {
-	int c, line;
+	char c, d; 
+	int line;
 	char buffer[MAX];
-	printf("1.Delete[line], 2.View[line], 3.Insert[line] 4.Save 5.Quit\n");
+	printf("Delete[line], View[line], Insert[line] Save Quit\n");
 	printf("입력할 명령은?>>");
-	fflush(stdin);
-	scanf("%d", &c); scanf("%d", &line);fflush(stdin);
+	scanf("%c%d", &c, &line); 
+	scanf("%c", &d);//for trailing new line of scanf bug
 	switch(c) {
-		case 1: return delete_line(l, line-1);
-		case 2: display(l, line); return l;
-		case 3: fgets(buffer, MAX, stdin);
-				return insert_line(l, line-1, buffer);
-		case 4: save(l); return l;
-		case 5: return NULL;
+		case 'd': return delete_line(l, line-1);
+		case 'v': display(l, line); return l;
+		case 'i': printf("입력할 문자열은? ");
+				  fgets(buffer, MAX, stdin);
+				  return insert_line(l, line-1, buffer);
+		case 's': save(l); return l;
+		case 'q': return NULL;
+		default : return l;
 	}
 }
 
 int main(int c, char** v) {
-	if(c < 2) return 0;
+	if(c < 2) v[1] = "sav.txt";
 	FILE* f = fopen(v[1], "r");
 	char buffer[MAX];
 	Line* l = NULL;
 	while(fgets(buffer, MAX, f)) l = insert_line(l, 1000, buffer);
-	display(l, 100);
+	display(l, 10000);
 	fclose(f);
 	while(l=command(l));
 }

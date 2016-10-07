@@ -13,19 +13,21 @@ public:
 	}
 
 	void insert(T n) {
-		if(!is_in(n)) {
-			for(int i=1; i<=N; i++) {
-				if(!on[i]) {
-					arr[i] = n;
-					on[i] = true;
-					break;
-				}
+		if(is_in(n)) return;
+		arr[first_blank] = n;
+		on[first_blank] = true;
+		for(int i=first_blank; i<=N; i++) {
+			if(!on[i]) {
+				first_blank = i;
+				break;
 			}
 		}
 	}
 
 	void remove(T n) {
-		on[is_in(n)] = false;
+		int k = is_in(n);
+		on[k] = false;
+		if(first_blank > k && k != 0) first_blank = k;
 	}
 
 	
@@ -82,6 +84,7 @@ public:
 	}
 		
 protected:
+	int first_blank = 1;
 };
 
 
