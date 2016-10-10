@@ -27,7 +27,7 @@ void remove_node(ListHeader *header, List *removed)
 //헤더노드를 이용한 공백 검사 함수
 int is_empty(ListHeader *header)
 {
-	return length == 0;
+	return header->length == 0;
 }
 
 //헤더노드를 이용한 검색 함수
