@@ -9,3 +9,5 @@ find
 .
 -size
 +3M
+./Exercise04.pdf
+./.git/objects/pack/pack-c6a61370c3e5459e0f336a1b89d599e39a3043f9.pack
